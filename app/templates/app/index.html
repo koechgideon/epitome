@@ -23,136 +23,141 @@
      
 
 
-    <body class="nk-body body-wider mode-onepage">
 
-<body class="nk-body body-wider mode-onepage">
-	<div class="nk-wrap">
-		<header class="nk-header page-header is-transparent is-sticky is-shrink is-split" id="header">
-		    <!-- Header @s -->
-            <div class="header-main">
-                <div class="container container-xxl">
-                    <div class="header-wrap">
-                        <!-- Logo @s -->
-                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
-                            <a href="./" class="logo-link">
-                                <img class="logo-dark" src="{% static 'images/logos/logo.png' %}" srcset="images/logo2x.png 2x" alt="logo">
-                                <img class="logo-light" src="{% static 'images/logos/logo2.png' %}" srcset="images/logo-full-white2x.png 2x" alt="logo">
-                            </a>
-                        </div>
-
-                        <!-- Menu Toogle @s -->
-                        <div class="header-nav-toggle">
-                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
-                                <div class="toggle-line">
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Menu @s -->
-                        <div class="header-navbar header-navbar-s2 flex-grow-1 animated" data-animate="fadeInDown" data-delay=".75">
-							<nav class="header-menu header-menu-s2" id="header-menu">
-                                <ul class="menu mx-auto">
-                                        <li class="menu-item">
-                                            <a href="#">Home</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">About Us</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Pricing</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Faq</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#">Contact Us</a>
-                                        </li>
-                                    </ul>
-
-                                <ul class="menu-btns">
-                                    <li><a href="{% url 'register' %}" class="btn btn-md btn-auto btn-secondary btn-outline no-change"><span>Join Us</span></a></li>
-                                    <li><a href="{% url 'login' %}" class="btn btn-md btn-auto btn-secondary no-change focus"><span>Login</span></a></li>
-                                </ul>
-                            </nav>
-                        </div><!-- .header-navbar @e -->
-                    </div>                                                
-                </div>
-            </div><!-- .header-main @e -->
-			<!-- Banner @s -->
-            <div class="header-banner bg-theme-grad-s2">
-                <div class="nk-banner">
-                    <div class="banner banner-fs banner-single banner-s1">
-                        <div class="banner-wrap my-auto">
+            <body class="nk-body body-wider mode-onepage">
+	            <div class="nk-wrap">
+                    <header class="nk-header page-header is-transparent is-sticky is-shrink is-split" id="header">
+                        <!-- Header @s -->
+                        <div class="header-main">
                             <div class="container container-xxl">
-                                <div class="row align-items-center justify-content-center justify-content-lg-between gutter-vr-60px">
-                                    <div class="col-lg-6 col-xl-5 text-center text-lg-left">
-                                        <div class="banner-caption tc-light animated" data-animate="fadeInUp" data-delay="1.25">
-                                            <div class="cpn-head mt-0">
-                                                <h1 class="title title-lg-s2">Join, Trade, and Earn</h1>
+                                <div class="header-wrap">
+                                    <!-- Logo @s -->
+                                    <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                                        <a href="./" class="logo-link">
+                                            <img class="logo-dark" src="{% static 'images/logos/logo.png' %}" srcset="images/logo2x.png 2x" alt="logo">
+                                            <img class="logo-light" src="{% static 'images/logos/logo2.png' %}" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                                        </a>
+                                    </div>
+
+                                    <!-- Menu Toogle @s -->
+                                    <div class="header-nav-toggle">
+                                        <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                            <div class="toggle-line">
+                                                <span></span>
                                             </div>
-                                            <div class="cpn-text cpn-text-s3 pb-2">
-                                                <p class="lead lead-s3 pb-1">Investment, Trading, and Consultancy Sacco</p>
-                                                <p>Epitome Trading Club has helped hundreds of people achieve their financial goals by helping them invest, trade and earn with ease</p>
-                                            </div>
-                                            <div class="cpn-btns">
-                                                <ul class="btn-grp">
-                                                    <li><a class="btn btn-lg btn-secondary" href="#">Membership</a></li>
-                                                    <li><a class="btn btn-lg btn-primary btn-outline" href="#">Join Us</a></li>
+                                        </a>
+                                    </div>
+
+                                    <!-- Menu @s -->
+                                    <div class="header-navbar header-navbar-s2 flex-grow-1 animated" data-animate="fadeInDown" data-delay=".75">
+                                        <nav class="header-menu header-menu-s2" id="header-menu">
+                                            <ul class="menu mx-auto">
+                                                    <li class="menu-item">
+                                                        <a href="#">Home</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">About Us</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">Live Trading Room</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">Courses</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">Testimonials</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">Resources</a>
+                                                    </li>
+                                                    <li class="menu-item">
+                                                        <a href="#">Contact Us</a>
+                                                    </li>
+                                                </ul>
+
+                                            <ul class="menu-btns">
+                                                <li><a href="{% url 'register' %}" class="btn btn-md btn-auto btn-secondary btn-outline no-change"><span>Join Us</span></a></li>
+                                                <li><a href="{% url 'login' %}" class="btn btn-md btn-auto btn-secondary no-change focus"><span>Login</span></a></li>
+                                            </ul>
+                                        </nav>
+                                    </div><!-- .header-navbar @e -->
+                                </div>                                                
+                            </div>
+                        </div><!-- .header-main @e -->
+                        <!-- Banner @s -->
+                        <div class="header-banner bg-theme-grad-s2">
+                            <div class="nk-banner">
+                                <div class="banner banner-fs banner-single banner-s1">
+                                    <div class="banner-wrap my-auto">
+                                        <div class="container container-xxl">
+                                            <div class="row align-items-center justify-content-center justify-content-lg-between gutter-vr-60px">
+                                                <div class="col-lg-6 col-xl-5 text-center text-lg-left">
+                                                    <div class="banner-caption tc-light animated" data-animate="fadeInUp" data-delay="1.25">
+                                                        <div class="cpn-head mt-0">
+                                                            <h1 class="title title-lg-s2">Join, Trade, and Earn</h1>
+                                                        </div>
+                                                        <div class="cpn-text cpn-text-s3 pb-2">
+                                                            <p class="lead lead-s3 pb-1">Investment, Trading, and Consultancy Sacco</p>
+                                                            <p>Epitome Trading Club has helped hundreds of people achieve their financial goals by helping them invest, trade and earn with ease</p>
+                                                        </div>
+                                                        <div class="cpn-btns">
+                                                            <ul class="btn-grp">
+                                                                <li><a class="btn btn-lg btn-secondary" href="#">Membership</a></li>
+                                                                <li><a class="btn btn-lg btn-primary btn-outline" href="#">Join Us</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .col -->
+                                                <div class="col-lg-6 col-xl-7 col-md-8 col-sm-9">
+                                                    <div class="banner-gfx banner-gfx-s2 position-relative animated" data-animate="fadeInUp" data-delay="1.35">
+                                                        <img src="/static/images/index_screen/sc-mockup.png" alt="mockup">
+                                                        <div class="gfx-slider gfx-screen round" data-slide-speed="2500" data-slide-show="true" data-anim-loop="true" data-anim-speed="1500">
+                                                            <ul class="slides">
+                                                                <li class="gfx-slide">
+                                                                    <div class="bg-image round">
+                                                                        <img src="/static/images/index_screen/trading.png" alt="slide img">
+                                                                    </div>
+                                                                </li>
+                                                                <li class="gfx-slide">
+                                                                    <div class="bg-image round">
+                                                                        <img src="/static/images/index_screen/trading1.png" alt="slide img">
+                                                                    </div>
+                                                                </li>
+                                                                <li class="gfx-slide">
+                                                                    <div class="bg-image round">
+                                                                        <img src="/static/images/index_screen/analysis.png" alt="slide img">
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .col -->
+                                            </div><!-- .row -->
+                                        </div>
+                                    </div>
+                                    <div class="banner-bottom w-100 pb-5 animated" data-animate="fadeInUp" data-delay="1.45">
+                                        <div class="container container-xxl">
+                                            <div class="d-flex justify-content-center justify-content-md-between align-items-center flex-lg-nowrap flex-wrap">
+                                                <ul class="btn-grp m-0">
+                                                    <li><a class="btn btn-lg btn-theme-dark" href="#"><span class="btn-img pr-3"><img src="/static/images/wave.png" alt="wave"></span><span class="btn-text ttc">View Details Statistic</span> <em class="ti ti-arrow-right pl-2"></em></a></li>
+                                                </ul>
+                                                <ul class="social pt-3 pt-md-0">
+                                                    <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
+                                                    <li><a href="#"><em class="social-icon fab fa-twitter"></em></a></li>
+                                                    <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
+                                                    <li><a href="#"><em class="social-icon fab fa-telegram"></em></a></li>
                                                 </ul>
                                             </div>
                                         </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg-6 col-xl-7 col-md-8 col-sm-9">
-                                        <div class="banner-gfx banner-gfx-s2 position-relative animated" data-animate="fadeInUp" data-delay="1.35">
-                                            <img src="/static/images/index_screen/sc-mockup.png" alt="mockup">
-                                            <div class="gfx-slider gfx-screen round" data-slide-speed="2500" data-slide-show="true" data-anim-loop="true" data-anim-speed="1500">
-                                                <ul class="slides">
-                                                    <li class="gfx-slide">
-                                                        <div class="bg-image round">
-                                                            <img src="/static/images/index_screen/trading.png" alt="slide img">
-                                                        </div>
-                                                    </li>
-                                                    <li class="gfx-slide">
-                                                        <div class="bg-image round">
-                                                            <img src="/static/images/index_screen/trading1.png" alt="slide img">
-                                                        </div>
-                                                    </li>
-                                                    <li class="gfx-slide">
-                                                        <div class="bg-image round">
-                                                            <img src="/static/images/index_screen/analysis.png" alt="slide img">
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                </div><!-- .row -->
-                            </div>
-                        </div>
-                        <div class="banner-bottom w-100 pb-5 animated" data-animate="fadeInUp" data-delay="1.45">
-                            <div class="container container-xxl">
-                                <div class="d-flex justify-content-center justify-content-md-between align-items-center flex-lg-nowrap flex-wrap">
-                                    <ul class="btn-grp m-0">
-                                        <li><a class="btn btn-lg btn-theme-dark" href="#"><span class="btn-img pr-3"><img src="/static/images/wave.png" alt="wave"></span><span class="btn-text ttc">View Details Statistic</span> <em class="ti ti-arrow-right pl-2"></em></a></li>
-                                    </ul>
-                                    <ul class="social pt-3 pt-md-0">
-                                        <li><a href="#"><em class="social-icon fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="social-icon fab fa-twitter"></em></a></li>
-                                        <li><a href="#"><em class="social-icon fab fa-youtube"></em></a></li>
-                                        <li><a href="#"><em class="social-icon fab fa-telegram"></em></a></li>
-                                    </ul>
+                                    </div>
                                 </div>
+                            </div><!-- .nk-banner -->
+                            <div class="nk-ovm shape-z6">
+                                <div class="nk-ovm-inner"></div>
                             </div>
                         </div>
-                    </div>
-                </div><!-- .nk-banner -->
-                <div class="nk-ovm shape-z6">
-                    <div class="nk-ovm-inner"></div>
-                </div>
-            </div>
-			<!-- .header-banner @e -->
-		</header>
+                        <!-- .header-banner @e -->
+                    </header>
     
         <main class="nk-pages">
 
