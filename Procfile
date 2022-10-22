@@ -1,0 +1,1 @@
+web: gunicorn epitome_project.wsgi --log-file -
